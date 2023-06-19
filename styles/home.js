@@ -6,16 +6,56 @@ const styles = StyleSheet.create({
     container: {
         width: "100%",
         flex: 1, 
-        alignItems: "center",
-        justifyContent: "center"
+        alignItems: "center", 
+        justifyContent: "center", 
+        padding: 15, 
+        backgroundColor: "#f5f5f5"
     },
-    input:{
+    input: {
         width: '100%',
-        height: 40,
-        marginBottom: 12,
+        height: 60,
         borderWidth: 1,
-        borderColor: 'gray',
-        paddingHorizontal: 10
+        borderColor: '#fff',
+        paddingHorizontal: 10,
+        backgroundColor: "#fff", 
+        borderRadius: 30, 
+        marginTop: 8,
+        marginBottom: 8
+    },
+    welcome:{
+        fontFamily: FONT.bold,
+        fontSize: SIZES.xxLarge,
+        fontWeight:900,
+        color: COLORS.primary,
+        marginTop:15
+    },
+    welcomeImage:{
+        width:"100%",
+        height:"50%"
+    },
+    txtMedium:{
+        fontSize: SIZES.medium,
+        marginTop: 8,
+        marginBottom:8
+    },
+    nextBtn:{
+        width: "100%",
+        borderRadius: 8, 
+        height: 60, 
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 40,
+        backgroundColor: COLORS.primary
+    },
+    logo:{
+        width:180,
+        height:110
+    },
+    titleLarge:{
+        fontSize: SIZES.xLarge, 
+        fontWeight:600,
+        marginTop: 8,
+        marginBottom:8
     },
     searchTitle: {
         fontFamily: FONT.bold,
